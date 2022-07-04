@@ -1,0 +1,3 @@
+/001 Private-Subnet enabled internet access through NAT-Instance/*.tfstate
+/001 Private-Subnet enabled internet access through NAT-Instance/.terraform/
+/001 Private-Subnet enabled internet access through NAT-Instance/.terraform.lock.hcl
