@@ -42,7 +42,7 @@ resource "aws_network_interface" "nat-instance-az1-primary" {
   }
 }
 
-# NAT-Instance. We use default Amazon Linux 2 and modify it to a NAt-Instance. 
+# NAT-Instance. We use default Amazon Linux 2 and modify it to a NAT-Instance. 
 resource "aws_instance" "nat-instance-az1" {
   ami                    = "ami-0a1ee2fb28fe05df3"   
   instance_type          = "t3.nano" # very cheap instance and also have 5GBit bandwith.
